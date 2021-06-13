@@ -65,7 +65,7 @@ async def on_ready():
             break
     
     if not discordServer:
-        raise Exception("This Discord Server can't be find!")
+        raise Exception("This Discord Server can't be found!")
 
     print(
         f'{discordClient.user} is connected to the following guild:\n'
